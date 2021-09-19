@@ -26,3 +26,4 @@ let membersPromo = {
     "thomas" : "thomas.jpg",
     "yohann" : "yohann.jpg"
 }
+
