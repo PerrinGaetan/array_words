@@ -26,11 +26,26 @@ let membersPromo = {
     "thomas" : "thomas.jpg",
     "yohann" : "yohann.jpg"
 }
+// Generate dynamically number of div depending name's length:
 
 const nameLines = document.getElementsByClassName('promoMember');
-for (let line in nameLines){
-    let nbDiv = nameLines[line].id.length;
-    for (let i = 0; i < nbDiv; i++){
-        nameLines[line].appendChild(document.createElement("div"));
+for (let i = 0; i < nameLines.length; i++){
+    let nbDiv = nameLines[i].id.length;
+    for (let j = 0; j < nbDiv; j++){
+        nameLines[i].appendChild(document.createElement("input")).setAttribute("maxlength", 1);
     }
+}
+
+let inputs = document.querySelectorAll('input');
+console.log(inputs);
+
+
+for (let i = 0; i < inputs.length; i++){
+
+    inputs[i].addEventListener('change', function(Event){
+        Event.preventDefault();
+        inputs[i].setAttribute("class", 'writed');
+        inputs[i].style.textAlign="center";
+    })
+
 }

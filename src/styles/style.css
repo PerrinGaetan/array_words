@@ -5,6 +5,7 @@
 
 body {
   width: 80%;
+  margin: auto;
 }
 
 body #playingArea {
@@ -613,5 +614,11 @@ body #playingArea #yohann {
   display: grid;
   -ms-grid-rows: (1fr)[6];
       grid-template-rows: repeat(6, 1fr);
+}
+
+body #playingArea div input {
+  width: 100%;
+  font-size: 2rem;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */
