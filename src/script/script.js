@@ -27,3 +27,10 @@ let membersPromo = {
     "yohann" : "yohann.jpg"
 }
 
+const nameLines = document.getElementsByClassName('promoMember');
+for (let line in nameLines){
+    let nbDiv = nameLines[line].id.length;
+    for (let i = 0; i < nbDiv; i++){
+        nameLines[line].appendChild(document.createElement("div"));
+    }
+}
