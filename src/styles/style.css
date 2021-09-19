@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+}
+
+body #playingArea {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[23];
+      grid-template-columns: repeat(23, 1fr);
+  grid-gap: 1rem;
+  -ms-grid-rows: (1fr)[19];
+      grid-template-rows: repeat(19, 1fr);
+  border: 1px solid black;
+}
+
+body #playingArea #anas {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5 / span 4;
+  border: 1px solid #0a0a0a;
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  grid-row: 9 / span 1;
+}
+
+body #playingArea #anais {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 5;
+  grid-column: 5 / span 5;
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 1;
+  grid-row: 15 / span 1;
+  border: 1px solid #0a0a0a;
+}
+
+body #playingArea #antonia {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #benjamin {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #claire {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #cristi {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #cyril {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #cecile {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #daniel {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #emma {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #gaetan {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #giovanny {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #charlie {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #julien {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #kachiri {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #laurie {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #lionel {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #loic {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #leo {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #malik {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #maxime {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #nicolas {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #ryan {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #sylvain {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #thomas {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body #playingArea #yohann {
+  -ms-grid-column: 30;
+      grid-column-start: 30;
+  grid-column-end: 32;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+/*# sourceMappingURL=style.css.map */
