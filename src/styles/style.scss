@@ -2,3 +2,145 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    width: 80%;
+    #playingArea{
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        grid-gap: 1rem;
+        grid-template-rows:repeat(19, 1fr);
+        border: 1px solid black;
+        #anas {
+            grid-column: 5 / span 4;
+            border : 1px solid rgb(10, 10, 10);
+            grid-row: 9 / span 1;
+        }
+        #anais {
+            grid-column: 5 / span 5;
+            grid-row: 15 / span 1;
+            border : 1px solid rgb(10, 10, 10);
+
+        }
+        #antonia {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #benjamin {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #claire {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #cristi {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #cyril {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #cecile {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #daniel {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #emma {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #gaetan {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #giovanny {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #charlie {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #julien {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #kachiri {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #laurie {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #lionel {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #loic {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #leo {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #malik {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #maxime {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #nicolas {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #ryan {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #sylvain {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #thomas {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+        #yohann {
+            grid-column-start: 30;
+            grid-column-end: 32;
+            grid-row: 1;
+        }
+    }
+}
